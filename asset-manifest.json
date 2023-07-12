@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/repositorioJR.github/static/css/main.8d38ca16.css",
+    "main.js": "/repositorioJR.github/static/js/main.f3de6aac.js",
+    "static/js/787.1ed0c42c.chunk.js": "/repositorioJR.github/static/js/787.1ed0c42c.chunk.js",
+    "static/media/fotoPerfil.jpg": "/repositorioJR.github/static/media/fotoPerfil.55a738883692a44869ba.jpg",
+    "static/media/react.png": "/repositorioJR.github/static/media/react.e8ff6be045b3879f138c.png",
+    "static/media/web.png": "/repositorioJR.github/static/media/web.53af7be9e3a7fd033a10.png",
+    "static/media/js.png": "/repositorioJR.github/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/jr.png": "/repositorioJR.github/static/media/jr.af1f0773c821efc6c434.png",
+    "static/media/express.png": "/repositorioJR.github/static/media/express.915b89629a5fefdb6ca0.png",
+    "static/media/sequelize.png": "/repositorioJR.github/static/media/sequelize.5f402037840779875c71.png",
+    "static/media/postgre.png": "/repositorioJR.github/static/media/postgre.a7fa39912c91e079e90b.png",
+    "static/media/rickymorty.png": "/repositorioJR.github/static/media/rickymorty.943497d1c7e2d19c397e.png",
+    "static/media/redux.png": "/repositorioJR.github/static/media/redux.b426d97de12d4dab1c06.png",
+    "static/media/ig.png": "/repositorioJR.github/static/media/ig.a249df77e5840071615d.png",
+    "static/media/wpp.png": "/repositorioJR.github/static/media/wpp.bfd507357251632cd204.png",
+    "static/media/gmail.png": "/repositorioJR.github/static/media/gmail.00e73cead072f3486391.png",
+    "static/media/nodo.png": "/repositorioJR.github/static/media/nodo.e328955d6bbbf3ebc72b.png",
+    "static/media/linkedin.png": "/repositorioJR.github/static/media/linkedin.ee007d6446f13535ae60.png",
+    "static/media/typescript.png": "/repositorioJR.github/static/media/typescript.16b157ea18cd87601675.png",
+    "static/media/logo.png": "/repositorioJR.github/static/media/logo.cc69671d6fc3b18cd493.png",
+    "static/media/dogs.png": "/repositorioJR.github/static/media/dogs.aa2fc16eec56ab7c1b87.png",
+    "static/media/wallet.png": "/repositorioJR.github/static/media/wallet.af2e3748cb18e7491166.png",
+    "static/media/sql.png": "/repositorioJR.github/static/media/sql.48a66afef5900e8bc474.png",
+    "static/media/github.png": "/repositorioJR.github/static/media/github.07a0ec3f55f2e4258d3c.png",
+    "static/media/css.png": "/repositorioJR.github/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/html.png": "/repositorioJR.github/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "index.html": "/repositorioJR.github/index.html",
+    "main.8d38ca16.css.map": "/repositorioJR.github/static/css/main.8d38ca16.css.map",
+    "main.f3de6aac.js.map": "/repositorioJR.github/static/js/main.f3de6aac.js.map",
+    "787.1ed0c42c.chunk.js.map": "/repositorioJR.github/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d38ca16.css",
+    "static/js/main.f3de6aac.js"
+  ]
+}
