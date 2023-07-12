@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+.cartContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(88, 109, 117);
+    width: 99%;
+    border-radius: 20px;
+    height: auto;
+    padding-bottom:20px ;
+    margin-top: 140px;
+}
+.proyectContainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.githubLogo{
+    max-width: 20px;
+    padding-left: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titlePr{
+    color: rgb(219, 186, 38);
+}
+.titleProfile{
+    width: 100%;
+}
+.imageProyects{
+    border-radius: 20px 20px 0px 0px;
+}
+hr{
+    width: 77%;
+}
+.cart{
+    background-color: rgb(6, 11, 14);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 300px;
+    max-height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.titleCart{
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+.githubRepo{
+    font-family: 'Outfit', sans-serif;
+}
+@media (max-width: 1327px){
+    .cart{
+        background-color: rgb(6, 11, 14);
+        border-radius: 20px;
+        margin-left: 20px;
+        max-width: 250px;
+        max-height: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageProyects{
+        border-radius: 20px 20px 0px 0px;
+        height: 250px;
+    }
+}
+@media (max-width: 1227px){
+    .cart{
+        background-color: rgb(6, 11, 14);
+        border-radius: 20px;
+        margin-left: 20px;
+        max-width: 200px;
+        max-height: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageProyects{
+        border-radius: 20px 20px 0px 0px;
+        height: 200px;
+        min-width: 100%;
+    }
+    .titleCart{
+        color: white;
+        font-family: 'Righteous', cursive;
+        font-size: 20px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .githubRepo{
+        font-size: 15px;
+    }
+}
+@media (max-width: 600px){
+    .titleProfile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center ;
+    }
+}

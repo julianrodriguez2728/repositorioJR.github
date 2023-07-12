@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.about-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acercaP{
+    color: rgb(182, 155, 33);
+}
+#acercademi{
+    padding-top: 10px;
+}
+.aboutP{
+    font-size: 23px;
+    font-weight: 200;
+}
+.container{
+    text-align: start;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    width: 1000px;
+    margin: 20px;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(59, 50, 61);
+    padding: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+h3{
+    padding-left: 20px;
+    color: rgb(233, 170, 170);
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+.parrafos{
+    text-align: start;
+    grid-column: 1/2;
+    margin-bottom: 70px;
+    text-align: start;
+    padding-left: 20px;
+}
+.imagenpersonal{
+    grid-column: 2/2;
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+.imagenpersonal img{
+    border-radius: 10px;
+    max-width: 350px;
+    border-radius: 10px;
+    height: auto;
+}
+@media (max-width: 1227px){
+    .about-container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #acercademi{
+        padding-top: 10px;
+    }
+    .aboutP{
+        text-align: right;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .container{
+        text-align: start;
+        margin-bottom: 100px;
+        margin-top: 200px;
+        width: 100%;
+        height: 500px;
+        border-radius: 10px;
+        background-color: rgb(59, 50, 61);
+        padding: 20px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    h3{
+        padding-left: 20px;
+        color: rgb(233, 170, 170);
+        font-size: 45px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    p{
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+    }
+    .parrafos{
+        text-align: start;
+        grid-column: 1/2;
+        margin-bottom: 70px;
+        text-align: start;
+        padding-left: 20px;
+    }
+    .imagenpersonal{
+        grid-column: 2/2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+    .imagenpersonal img{
+        border-radius: 10px;
+        max-width: 250px;
+        border-radius: 10px;
+        height: auto;
+    }
+}
+@media (max-width: 600px){
+    .imagenpersonal img{
+        border-radius: 10px;
+        max-width: 180px;
+        border-radius: 10px;
+        height: auto;
+    }
+    .parrafos{
+        text-align: start;
+        grid-column: 1/2;
+        margin-bottom: 40px;
+        padding-left: 5px;
+    }
+    .aboutP{
+        text-align: right;
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .acercaP{
+        font-size: 38px;
+    }
+}
+@media (max-width: 436px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .aboutP{
+        text-align: center;
+    }
+}
