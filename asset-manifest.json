@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/repositorioJR.github/static/css/main.8d38ca16.css",
-    "main.js": "/repositorioJR.github/static/js/main.f3de6aac.js",
+    "main.css": "/repositorioJR.github/static/css/main.68baf935.css",
+    "main.js": "/repositorioJR.github/static/js/main.05722dd4.js",
     "static/js/787.1ed0c42c.chunk.js": "/repositorioJR.github/static/js/787.1ed0c42c.chunk.js",
     "static/media/fotoPerfil.jpg": "/repositorioJR.github/static/media/fotoPerfil.55a738883692a44869ba.jpg",
     "static/media/react.png": "/repositorioJR.github/static/media/react.e8ff6be045b3879f138c.png",
@@ -9,6 +9,7 @@
     "static/media/js.png": "/repositorioJR.github/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/jr.png": "/repositorioJR.github/static/media/jr.af1f0773c821efc6c434.png",
     "static/media/express.png": "/repositorioJR.github/static/media/express.915b89629a5fefdb6ca0.png",
+    "static/media/henryTitle.png": "/repositorioJR.github/static/media/henryTitle.17601bc6047217a4a83a.png",
     "static/media/sequelize.png": "/repositorioJR.github/static/media/sequelize.5f402037840779875c71.png",
     "static/media/postgre.png": "/repositorioJR.github/static/media/postgre.a7fa39912c91e079e90b.png",
     "static/media/rickymorty.png": "/repositorioJR.github/static/media/rickymorty.943497d1c7e2d19c397e.png",
@@ -27,12 +28,12 @@
     "static/media/css.png": "/repositorioJR.github/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/html.png": "/repositorioJR.github/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/repositorioJR.github/index.html",
-    "main.8d38ca16.css.map": "/repositorioJR.github/static/css/main.8d38ca16.css.map",
-    "main.f3de6aac.js.map": "/repositorioJR.github/static/js/main.f3de6aac.js.map",
+    "main.68baf935.css.map": "/repositorioJR.github/static/css/main.68baf935.css.map",
+    "main.05722dd4.js.map": "/repositorioJR.github/static/js/main.05722dd4.js.map",
     "787.1ed0c42c.chunk.js.map": "/repositorioJR.github/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d38ca16.css",
-    "static/js/main.f3de6aac.js"
+    "static/css/main.68baf935.css",
+    "static/js/main.05722dd4.js"
   ]
 }
