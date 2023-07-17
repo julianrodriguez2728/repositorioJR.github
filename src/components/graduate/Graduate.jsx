@@ -4,7 +4,7 @@ import react from "./react.png"
 import js from "./js.png"
 import "./titles.css"
 import Slide from 'react-reveal/Slide';
-
+import henry from "./henryTitle.png"
 function Graduate() {
   return (
     <div className='titulosContainer' id='titulos'>
@@ -18,6 +18,7 @@ function Graduate() {
             <img src={js} alt=""  className='image-titulo'/>
             <img src={web} alt=""  className='image-titulo'/>
             <img src={react} alt=""  className='image-titulo'/>
+            <img src={henry} alt=""  className='image-titulo'/>
             </div>
             
         </div>
