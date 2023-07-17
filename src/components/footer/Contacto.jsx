@@ -19,18 +19,17 @@ function Contacto() {
             </Slide>
         <div class="aplicaciones">
             <Slide left>
-
-            <div  id='ig'>
-                <img src={ig} alt="" />
-                <p>@julirrodriguez__</p>
-            </div>
             <div id="linkedin">
                 <img src={linkedin} alt="" />
+                <a href="https://www.linkedin.com/in/julianigrodriguez/" target='_blank'>
                 <p>Julian Ignacio Rodriguez</p>
+                </a>
             </div>
             <div id="github">
                 <img src={github} alt=""  id='gitImage'/>
+                <a href="https://github.com/julianrodriguez2728" target='_blank'>
                 <p>julianrodriguez2728</p>
+                </a>
             </div>
             <div id="wpp">
                 <img src={wpp} alt="" />

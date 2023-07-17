@@ -55,6 +55,12 @@ function Proyects() {
                 <h1 className='titleCart'>{item.titulo}</h1>
                 <hr />
                 <a href={item.repositorio} target='_blank'><p className='githubRepo'>Repositorio Github<img src={git} alt="" className='githubLogo'/></p> </a>
+                <hr style={{width:"50%"}}/>
+                <div className='containerProyectsTech'>
+                <p id="tecnologiasP">
+                  Tecnologias: <br /> {item.lenguajes}
+                </p>
+                </div>
                 </div>
               </div>
               </Flip>

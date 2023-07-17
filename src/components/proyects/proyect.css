@@ -48,7 +48,7 @@ hr{
     margin-left: 20px;
     margin-top: 20px;
     max-width: 300px;
-    max-height: auto;
+    max-height:  800px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -61,6 +61,20 @@ hr{
 }
 .githubRepo{
     font-family: 'Outfit', sans-serif;
+    transition: all .2s;
+}
+.githubRepo:hover{
+    color: orange;
+}
+ #tecnologiasP{
+    font-size: 15px;
+}
+.containerProyectsTech{
+    height: 126px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
 }
 @media (max-width: 1327px){
     .cart{
@@ -78,6 +92,9 @@ hr{
     .imageProyects{
         border-radius: 20px 20px 0px 0px;
         height: 250px;
+    }
+    #tecnologiasP{
+        font-size: 10px;
     }
 }
 @media (max-width: 1227px){
@@ -109,6 +126,7 @@ hr{
     .githubRepo{
         font-size: 15px;
     }
+   
 }
 @media (max-width: 600px){
     .titleProfile{
