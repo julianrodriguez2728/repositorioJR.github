@@ -31,6 +31,7 @@ function Proyects() {
         image:imgWallet,
         lenguajes:"Html, Css, ReactNative, Typescript, ReduxToolkit, SQL, PostgreSQL, nodeJS, Sequelize, Express",
         repositorio:"https://github.com/Ezeko95/Wallet-Wise-client-app",
+        video:"https://vimeo.com/843702475",
         deploy:"https://drive.google.com/file/d/1vjRHHm_7KiXtfaaqAuyX3MXGXT_q2Dpi/view?usp=sharing"
     }
   ]  
@@ -55,11 +56,20 @@ function Proyects() {
                 <h1 className='titleCart'>{item.titulo}</h1>
                 <hr />
                 <a href={item.repositorio} target='_blank'><p className='githubRepo'>Repositorio Github<img src={git} alt="" className='githubLogo'/></p> </a>
+                {
+                  item.video
+                  ?
+                  <a href={item.video} target='_blank'><p className='githubRepo video'>Video</p> </a>
+                  :
+                  null
+                }
                 <hr style={{width:"50%"}}/>
+                
                 <div className='containerProyectsTech'>
                 <p id="tecnologiasP">
                   Tecnologias: <br /> {item.lenguajes}
                 </p>
+                
                 </div>
                 </div>
               </div>
