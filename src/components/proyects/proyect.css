@@ -5,8 +5,8 @@
 .cartContainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: rgb(88, 109, 117);
     width: 99%;
     border-radius: 20px;
@@ -80,6 +80,43 @@ hr{
 a{
     text-decoration: none;
 }
+.cartFirstProyect{
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 80%;
+}
+.cabeceraContainer{
+    display: flex;
+    align-items: start;
+}
+.biCabecera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoTechnologias{
+    width: 50px;
+}
+.tecnoContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+    flex-wrap: wrap;
+}
+.logoGit{
+    width: 50px;
+}
+.parrafoProyectContainer{
+    width: 50%;
+}
+.parrafProyect{
+    text-align: start;
+    font-size: 20px;
+}
 @media (max-width: 1327px){
     .cart{
         background-color: rgb(6, 11, 14);
@@ -131,6 +168,18 @@ a{
         font-size: 15px;
     }
    
+}
+@media (max-width: 780px){
+    .cabeceraContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .parrafoProyectContainer{
+        width: 80%;
+    }
+    .parrafProyect{
+        font-size: 16px;
+    }
 }
 @media (max-width: 600px){
     .titleProfile{

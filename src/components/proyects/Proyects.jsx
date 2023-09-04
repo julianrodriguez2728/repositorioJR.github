@@ -7,6 +7,18 @@ import imgMi from "./mimikU.png"
 import Slide from 'react-reveal/Slide';
 import Flip from 'react-reveal/Flip';
 import git from "./github.png"
+import css from "../tecnologias/img/css.png"
+import html from "../tecnologias/img/html.png"
+import js from "../tecnologias/img/js.png"
+import react from "../tecnologias/img/react.png"
+import postgre from "../tecnologias/img/postgre.png"
+import nodo from "../tecnologias/img/nodo.png"
+import sql from "../tecnologias/img/sql.png"
+import express from "../tecnologias/img/express.png"
+import redux from "../tecnologias/img/redux.png"
+import sequelize from "../tecnologias/img/sequelize.png"
+import typescript from "../tecnologias/img/typescript.png"
+import radtek from "./RADTEK.png"
 function Proyects() {
   const proyect = [
     {
@@ -43,40 +55,120 @@ function Proyects() {
       <div className='titleProfile'>
       <h3 className='titlePr'>Proyectos</h3>
       </div>
-        {
-          proyect.map((item)=>{
-            return(
-              <Flip bottom>
 
-              <div key={item.id} className='cart'>
-                <a href={item.deploy} target='_blank'>
-                <img src={item.image} alt=""  className='imageProyects'/>
-                </a>
-                <div className="info">
-                <h1 className='titleCart'>{item.titulo}</h1>
-                <hr />
-                <a href={item.repositorio} target='_blank'><p className='githubRepo'>Repositorio Github<img src={git} alt="" className='githubLogo'/></p> </a>
-                {
-                  item.video
-                  ?
-                  <a href={item.video} target='_blank'><p className='githubRepo video'>Video</p> </a>
-                  :
-                  null
-                }
-                <hr style={{width:"50%"}}/>
-                
-                <div className='containerProyectsTech'>
-                <p id="tecnologiasP">
-                  Tecnologias: <br /> {item.lenguajes}
-                </p>
-                
-                </div>
-                </div>
-              </div>
-              </Flip>
-            )
-          })
-        }  
+      <div className='cartFirstProyect'>
+        <div className="cabeceraContainer">
+        <img src={imgMi} alt="" />
+        <div className="biCabecera">
+        <h1 style={{color:"white"}}>MIMIK U</h1>
+        <hr />
+        <div className="parrafoProyectContainer">
+        <p className="parrafProyect">Esta aplicación de Ecommerce te permite buscar productos fácilmente mediante filtros personalizables. Obtén detalles detallados de los productos y agrégalos al carrito antes de finalizar la compra con opciones de pago seguras y variadas. Facilitamos tu experiencia de compra en línea.</p>
+        </div>
+        <div style={{display:"flex", alignItems:"center"}}>
+        
+        <a href="https://github.com/julianrodriguez2728/EcommerceJR.github.io" target='_blank'><img src={git} alt="" className='logoGit'/></a>
+        </div>
+        </div>
+        </div>
+        <div className="tecnoContainer">
+          <img src={js} alt="" className='logoTechnologias'/>
+          <img src={html} alt="" className='logoTechnologias'/>
+          <img src={css} alt="" className='logoTechnologias'/>
+          <img src={react} alt="" className='logoTechnologias'/>
+        </div>
+      </div>
+
+      <div className='cartFirstProyect'>
+        <div className="cabeceraContainer">
+        <img src={imgDogs} alt="" />
+        <div className="biCabecera">
+        <h1 style={{color:"white"}}>PI DOGS</h1>
+        <hr />
+        <div className="parrafoProyectContainer">
+        <p className="parrafProyect">Aplicación funcional con temática "Dogs". donde podrás buscar tu perro, filtrarlos por peso, raza y edad Tambien podras crear tu perro y ver su respectivo detail
+</p>
+        </div>
+        <div style={{display:"flex", alignItems:"center"}}>
+        
+        <a href="https://github.com/julianrodriguez2728/frontend-pi" target='_blank'><img src={git} alt="" className='logoGit'/></a>
+        </div>
+        </div>
+        </div>
+        <div className="tecnoContainer">
+          <img src={react} alt="" className='logoTechnologias'/>
+          <img src={js} alt="" className='logoTechnologias'/>
+          <img src={css} alt="" className='logoTechnologias'/>
+          <img src={html} alt="" className='logoTechnologias'/>
+          <img src={redux} alt="" className='logoTechnologias'/>
+          <img src={nodo} alt="" className='logoTechnologias'/>
+          <img src={postgre} alt="" className='logoTechnologias'/>
+          <img src={express} alt="" className='logoTechnologias'/>
+          <img src={sql} alt="" className='logoTechnologias'/>
+          <img src={sequelize} alt="" className='logoTechnologias'/>
+        </div>
+      </div>
+      <div className='cartFirstProyect'>
+        <div className="cabeceraContainer">
+        <img src={imgWallet} alt="" />
+        <div className="biCabecera">
+        <h1 style={{color:"white"}}>WALLET WISE</h1>
+        <hr />
+        <div className="parrafoProyectContainer">
+        <p className="parrafProyect">Es una aplicación móvil en la que el usuario podrá llevar anotaciones sobre sus gastos, ingresos y en que cuenta (bancaria, virtual, efectivo) posee el dinero. La misma ofrece funciones adicionales que permiten establecer metas o crear sala de gastos compartidos. Con Wise Wallet el usuario tendrá una herramienta que le permita administrar su dinero de forma segura.
+
+</p>
+        </div>
+        <div style={{display:"flex", alignItems:"center"}}>
+        
+        <a href="https://github.com/Ezeko95/Wallet-Wise-client-app" target='_blank'><img src={git} alt="" className='logoGit'/></a>
+        </div>
+        </div>
+        </div>
+        <div className="tecnoContainer">
+          <img src={react} alt="" className='logoTechnologias'/>
+          <img src={js} alt="" className='logoTechnologias'/>
+          <img src={typescript} alt="" className='logoTechnologias'/>
+          <img src={css} alt="" className='logoTechnologias'/>
+          <img src={html} alt="" className='logoTechnologias'/>
+          <img src={redux} alt="" className='logoTechnologias'/>
+          <img src={nodo} alt="" className='logoTechnologias'/>
+          <img src={postgre} alt="" className='logoTechnologias'/>
+          <img src={express} alt="" className='logoTechnologias'/>
+          <img src={sql} alt="" className='logoTechnologias'/>
+          <img src={sequelize} alt="" className='logoTechnologias'/>
+        </div>
+      </div>
+      <div className='cartFirstProyect'>
+        <div className="cabeceraContainer">
+        <img src={radtek} alt="" />
+        <div className="biCabecera">
+        <h1 style={{color:"white"}}>RADTEK ECOMMERCE</h1>
+        <hr />
+        <div className="parrafoProyectContainer">
+        <p className="parrafProyect">Esta aplicación de Ecommerce ofrece filtrado por marca, orden alfabético y color. Incluye una barra de búsqueda funcional, acceso detallado a los productos y opciones para seleccionar la cantidad deseada antes de añadir al carrito. Los usuarios pueden editar, eliminar productos y finalizar la compra. Además, brinda inicio de sesión y autenticación con Google, así como la opción de crear un perfil personal.
+</p>
+        </div>
+        <div style={{display:"flex", alignItems:"center"}}>
+        
+        <a href="https://github.com/Ezeko95/Wallet-Wise-client-app" target='_blank'><img src={git} alt="" className='logoGit'/></a>
+        </div>
+        </div>
+        </div>
+        <div className="tecnoContainer">
+          <img src={react} alt="" className='logoTechnologias'/>
+          <img src={js} alt="" className='logoTechnologias'/>
+          <img src={typescript} alt="" className='logoTechnologias'/>
+          <img src={css} alt="" className='logoTechnologias'/>
+          <img src={html} alt="" className='logoTechnologias'/>
+          <img src={redux} alt="" className='logoTechnologias'/>
+          <img src={nodo} alt="" className='logoTechnologias'/>
+          <img src={postgre} alt="" className='logoTechnologias'/>
+          <img src={express} alt="" className='logoTechnologias'/>
+          <img src={sql} alt="" className='logoTechnologias'/>
+          <img src={sequelize} alt="" className='logoTechnologias'/>
+        </div>
+      </div>
       </div>
         </Slide>
     </div>
