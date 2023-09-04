@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/repositorioJR.github/static/css/main.7ca08a11.css",
-    "main.js": "/repositorioJR.github/static/js/main.bfce36df.js",
+    "main.css": "/repositorioJR.github/static/css/main.f63bc133.css",
+    "main.js": "/repositorioJR.github/static/js/main.818e6777.js",
     "static/js/787.1ed0c42c.chunk.js": "/repositorioJR.github/static/js/787.1ed0c42c.chunk.js",
     "static/media/fotoPerfil.jpg": "/repositorioJR.github/static/media/fotoPerfil.55a738883692a44869ba.jpg",
     "static/media/react.png": "/repositorioJR.github/static/media/react.e8ff6be045b3879f138c.png",
@@ -27,13 +27,14 @@
     "static/media/github.png": "/repositorioJR.github/static/media/github.07a0ec3f55f2e4258d3c.png",
     "static/media/css.png": "/repositorioJR.github/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/html.png": "/repositorioJR.github/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/RADTEK.png": "/repositorioJR.github/static/media/RADTEK.6bb94c397d821b860882.png",
     "index.html": "/repositorioJR.github/index.html",
-    "main.7ca08a11.css.map": "/repositorioJR.github/static/css/main.7ca08a11.css.map",
-    "main.bfce36df.js.map": "/repositorioJR.github/static/js/main.bfce36df.js.map",
+    "main.f63bc133.css.map": "/repositorioJR.github/static/css/main.f63bc133.css.map",
+    "main.818e6777.js.map": "/repositorioJR.github/static/js/main.818e6777.js.map",
     "787.1ed0c42c.chunk.js.map": "/repositorioJR.github/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ca08a11.css",
-    "static/js/main.bfce36df.js"
+    "static/css/main.f63bc133.css",
+    "static/js/main.818e6777.js"
   ]
 }
